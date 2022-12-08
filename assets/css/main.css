@@ -911,6 +911,7 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
+				margin-top: 40px;
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #ffffff;
 				display: inline-block;
@@ -1140,9 +1141,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1295,6 +1299,11 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
+		#header .edit {
+
+			transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+		}
+
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
@@ -1342,6 +1351,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			
 		}
 
 			#header nav ul li {
@@ -1366,11 +1376,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(130, 104, 113, 0.075);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(132, 116, 135, 0.175);
 					}
 
 		#header nav.use-middle:after {
@@ -1449,6 +1459,8 @@ input, select, textarea {
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
+				
+				
 			}
 
 			#header .content p {
@@ -1496,6 +1508,8 @@ input, select, textarea {
 					display: none;
 				}
 
+
+				
 		}
 
 /* Main */
